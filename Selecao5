@@ -1,0 +1,26 @@
+
+public class Selecao5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	int ano=0;
+	
+	Runtime run = Runtime.getRuntime();
+	run.exec("cls");
+	
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println();
+	System.out.print("Ano de nascimento c/ quatro digitos: ");
+	ano = scan.nextFloat();
+	if ((2002 - ano) >= 16 )
+			System.out.println("Voce podera votar este ano :-) ");
+	else
+		System.out.print("Voce ainda nao podera votar este ano :-( ");
+	
+	System.out.println();
+
+}
+}
